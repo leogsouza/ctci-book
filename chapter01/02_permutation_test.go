@@ -19,7 +19,7 @@ func TestPermutation(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
-			got := Permutation(test.s, test.t)
+			got := PermutationBySet(test.s, test.t)
 
 			if got != test.want {
 				t.Errorf("test %v failed. got %v, want: %v", test.name, got, test.want)
