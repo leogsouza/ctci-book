@@ -1,4 +1,4 @@
-package permutation
+package chapter01
 
 import "testing"
 

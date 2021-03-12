@@ -1,4 +1,4 @@
-package unique
+package chapter01
 
 import "testing"
 
