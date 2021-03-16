@@ -1,5 +1,7 @@
 package chapter01
 
+// URLify replaces all spaces characters in a string with '%20'
+// Time Complexity: O(N)
 func URLify(s string, n int) string {
 	spaces := 0
 	for i := 0; i < n; i++ {
